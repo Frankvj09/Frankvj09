@@ -1,0 +1,19 @@
+<DOCTYPE hmtl>
+    <html>
+        <head>
+            <meta charset =*utf-8>
+            <title> Linear Regression </title>
+        </head>
+                <body>
+                    <h1> Linear Regression: Calculate Grades </h1>
+                    <form method =" post">
+                        <label for "hours"> Study Hours </label>
+                        <input type:"number "  name"hours" step= "0,1" required>
+                        <button type "sumbit"> Calculate grade </button>
+                    </form>
+                    { % if  result is not none % }
+                    <h2> Estimated Grade:{{result}}</h2>
+                    {% endif %}
+                </body>
+            </html>
+            
